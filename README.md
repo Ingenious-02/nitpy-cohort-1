@@ -1,6 +1,8 @@
 # nitpy-cohort-1
 NitHub University of Lagos Python Course Cohort 1.
 
-My name is Ibraheem.
+My name is Ibraheem. This is a repository for my NITPY course and project.
 
-This is from my local PC.
+
+
+## Documentation
