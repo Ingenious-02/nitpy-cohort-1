@@ -1,15 +1,10 @@
-# nitpy-cohort-1
-NitHub University of Lagos Python Course Cohort 1.
+# Hangman Game
 
-My name is Ibraheem. This is a repository for my NITPY course and project.
-
-Certainly! Below is a comprehensive documentation for the Hangman game, covering its concept, structure, user input, variables, data types, functions, error handling, user input validation, and other necessary details.
-
-# Hangman Game Documentation
+# Documentation
 
 ## Game Concept and Structure
 
-**Hangman** is a classic word-guessing game where one player thinks of a word, and the other player tries to guess it by suggesting letters one at a time. The player has a limited number of attempts to guess the word correctly. For each incorrect guess, a part of a "hangman" figure is drawn. The player wins if they guess the word before the hangman figure is completed or loses if they run out of attempts.
+The **Hangman** is a classic word-guessing game where one player thinks of a word, and the other player tries to guess it by suggesting letters one at a time. The player has a limited number of attempts to guess the word correctly. For each incorrect guess, a part of a "hangman" figure is drawn. The player wins if they guess the word before the hangman figure is completed or loses if they run out of attempts.
 
 ### Game Structure
 
@@ -24,11 +19,11 @@ Certainly! Below is a comprehensive documentation for the Hangman game, covering
    - If the guessed letter is not in the word, the player loses an attempt.
    - The game continues until the player guesses the word or runs out of attempts.
 
-3. **Winning/Losing**:
+3. **Winning / Losing**:
    - The player wins if they correctly guess the entire word before running out of attempts.
    - The player loses if they run out of attempts, and the full "hangman" figure is drawn.
 
-4. **Restart**:
+4. **Continuation (or Option to Restart)**:
    - After each game, the player has the option to play again.
 
 ## User Input
@@ -45,7 +40,7 @@ The game uses the following variables and data types:
 - `word_list` (list): A predefined list of words from which a random word is chosen for each game.
 - `word_to_guess` (str): The word that the player is trying to guess.
 - `guessed_letters` (list): A list to store the letters that the player has guessed.
-- `attempts` (int): The number of remaining attempts.
+- `ATTEMMPTS` (int): A contsant variable to hold the number of attempts remaining.
 - `guess` (str): The letter guessed by the player.
 - `play_again` (str): Player's choice to play another round.
 
@@ -98,5 +93,3 @@ The game uses the following variables and data types:
 - The game can be customized by modifying parameters such as the number of attempts, the list of words, or the hangman figure.
 
 This Hangman game is a fun and interactive way to test your word-guessing skills while enjoying a classic game.
-
-## Documentation
