@@ -1,6 +1,4 @@
-# Hangman Game
-
-# Documentation
+# Hangman Game -- Documentation
 
 ## Game Concept and Structure
 
